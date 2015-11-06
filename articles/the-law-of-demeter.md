@@ -23,7 +23,7 @@ Desse modo, nesse trecho de código, *há muita informação para um único mét
 Bem, em apenas uma linha de código foram encontrados vários problemas. 
 
 __Então, como resolvê-los?__
-
+[TO BE CONINUED...]
 
 ##Referências##
 _Clean Code: A Handbook for Software Agile Craftsmanship._
