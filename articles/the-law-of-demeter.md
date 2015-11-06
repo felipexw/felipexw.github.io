@@ -16,9 +16,10 @@ A figura abaixo ilustra esse cenário.
 __Qual é o problema com esse código?__
 
 Bem, há vários problemas:
-* O método em que esse trecho de código está escrito sabe que o objeto contexto contém um objeto do tipo Opcoes. Até aí tudo bem, o problema é que dentro de _Opcoes_ há um método nomeado de _getDiretorioOrigem()_ que retorna um objeto do tipo _DiretorioOrigem_, que por sua vez possui um método chamado de _getCaminhoAbsoluto()_ que retorna o caminho absoluto.
-* __O problema é que este método possui muito conhecimento.__ Em outras palavras, esse método sabe que dentro do objeto _DiretorioRaiz_ há o caminho absoluto (uma propriedade interna deste objeto).
-Desse modo, nesse trecho de código, há muita informação para um único método, e como se não bastasse, o encapsulamento foi quebrado, pois a entidade _Opcoes_ está expondo o _DiretorioOrigem_, e o este último está expondo o seu caminho absoluto (quebra de encapsulamento).
+* O método em que esse trecho de código está escrito sabe que o objeto contexto contém um objeto do tipo _Opcoes_. Até aí tudo bem, o problema é que dentro de _Opcoes_ há um método nomeado de _getDiretorioOrigem()_ que retorna um objeto do tipo _DiretorioOrigem_, que por sua vez possui um método chamado de _getCaminhoAbsoluto()_ que retorna o caminho absoluto.
+* __O problema é que este método possui muito conhecimento.__ 
+
+Desse modo, nesse trecho de código, *há muita informação para um único método*, e como se não bastasse, *o encapsulamento foi quebrado*, pois a entidade _Opcoes_ está expondo o _DiretorioOrigem_, e o este último está expondo o seu caminho absoluto (quebra de encapsulamento).
 Bem, em apenas uma linha de código foram encontrados vários problemas. 
 
 __Então, como resolvê-los?__
