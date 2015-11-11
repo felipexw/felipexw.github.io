@@ -10,13 +10,13 @@ Introdução
 #### Open-Closed Principle (OCP) ####
 
 
-#### Liskov Substitution ####
+#### Liskov Substitution (LS) ####
 
 
-#### Interface Segregation ####
+#### Interface Segregation (IS) ####
 
 
-#### Dependency Injection ####
+#### Dependency Injection (DI) ####
 
 
 ## Conclusão ##
