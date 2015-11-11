@@ -1,25 +1,25 @@
-#S.O.L.D#
+# S.O.L.D #
 
-##Introdução##
+## Introdução ##
 Introdução
 
 
-###Single Responsability Principle (SRP)###
+#### Single Responsability Principle (SRP) #####
 
 
-###Open-Closed Principle (OCP)
+#### Open-Closed Principle (OCP) ####
 
 
-###Liskov Substitution###
+#### Liskov Substitution ####
 
 
-###Interface Segregation###
+#### Interface Segregation ####
 
 
-###Dependency Injection###
+#### Dependency Injection ####
 
 
-##Conclusão##
+## Conclusão ##
 
-##Referências##
+## Referências ##
 _Clean Code: A Handbook for Software Agile Craftsmanship._
